@@ -1,4 +1,4 @@
-function getNumeral (inputNumber) {
+export function getNumeral (inputNumber) {
   let currentNumber = inputNumber;
   let currentNumeral = "";
   while (currentNumber > 0) {
@@ -8,7 +8,7 @@ function getNumeral (inputNumber) {
   return currentNumeral;
 }
 
-function checkNumber (inputNumber) {
+export function checkNumber (inputNumber) {
   let numeralKey = [
     {"number":1000,"numeral":"M"},
     {"number":900,"numeral":"CM"},
@@ -36,16 +36,3 @@ function checkNumber (inputNumber) {
   }
 }
 
-$(document).ready(function(){
-  $("form#numberInput").submit(function(event){
-    event.preventDefault();
-    let inputNumber = parseInt($("#number").val());
-    let outputNumeral = getNumeral(inputNumber);
-    let regex = /^[0-9]*$/;
-    if (regex.test(inputNumber) === true && inputNumber > 0 && inputNumber <= 3999){
-      $("#result").text(outputNumeral);
-    } else {
-      $("#result").text("Please enter a number between 1 and 3999.");
-    }
-  });
-}); 

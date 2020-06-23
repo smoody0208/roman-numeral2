@@ -1,4 +1,4 @@
-#### By _**Peter Grimm, Spencer Moody, Chris Brauch**, June 11th, 2020_
+#### By _**Peter Grimm, Spencer Moody, Chris Brauch, Ian Gregg**, June 11th, 2020_
 
 ## Description
 

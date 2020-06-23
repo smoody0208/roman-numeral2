@@ -1,7 +1,7 @@
 {
-  "name": "my-project",
+  "name": "roman-numerals",
   "version": "1.0.0",
-  "description": "",
+  "description": "a project to test out TDD",
   "main": "main.js",
   "scripts": {
     "build": "webpack --mode development",
@@ -11,13 +11,14 @@
     "debug": "node --inspect-brk node_modules/jest/bin/jest --runInBand"
   },
   "keywords": [],
-  "author": "",
+  "author": "spencer moody, vanessa guerrero, ian gregg and thomas glenn",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "clean-webpack-plugin": "3.0.0",
     "css-loader": "^3.2.0",
+    "dotenv-webpack": "^1.8.0",
     "eslint": "^6.3.0",
     "eslint-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
